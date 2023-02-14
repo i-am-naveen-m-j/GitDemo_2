@@ -1,0 +1,46 @@
+echo "# GitDemo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/i-am-naveen-m-j/GitDemo.git
+git push -u origin main
+
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/i-am-naveen-m-j/GitDemo_2.git
+git push -u origin main
+
+
+1.Create GitRepo
+2.https://github.com/i-am-naveen-m-j/GitDemo
+3.https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+4.
+git config --global user.name "i-am-naveen-m-j"
+git config --global user.email m.j.n@outlook.in
+git add *   // (use "git rm --cached <file>..." to unstage)
+git status
+git commit -m "1st Commit message"
+git remote add origin https://github.com/i-am-naveen-m-j/GitDemo.git
+git remote add origin https://github.com/i-am-naveen-m-j/GitDemo_2.git
+
+echo "# GitDemo_2" >> README.md
+
+
+git branch -M main
+git push origin master  
+https://www.javaprogramto.com/2021/11/git-remote-repository-not-found.html
+ //git remote -v  //git remote remove origin //
+ 
+ 
+ $ ssh-keygen -t ed25519 -C "m.j.n@outlook.in"
+ $ ssh-keygen -t ecdsa-sk -C "m.j.n@outlook.in"
+ ssh-keygen
+ 
+ git clone -->1st time nothing is ther
+ git pull ---> only updated code
+ 
